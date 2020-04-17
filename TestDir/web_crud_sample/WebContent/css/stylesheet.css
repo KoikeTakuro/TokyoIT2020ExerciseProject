@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 500px;
+  min-width: 1050px;
+  background-color: Snow;
+}
+
+div#contents {
+  width: 1050px;
+  height: auto;
+  margin: 0 auto; /* センタリング */
+  min-height: 500px
+}
+
+div#header {
+  width: 1050px;
+  height: 100px;
+  background-color: DimGray;
+  color: White;
+}
+
+div#main {
+  height: auto;
+  min-height: 300px;
+  padding-top: 20px;
+  background-color: Snow;
+}
+
+div#footer {
+  background-color: DimGray;
+  height: 50px;
+}
+
+div.footer {
+  padding-top: 14px;
+  margin: 0px auto;
+  color: White;
+}
+
+div.top_link {
+  display: inline-block; /*for modern*/
+  margin-left: auto;
+  margin-right: 0;
+}
+
+div.select_text {
+  max-lentgh: 2;
+}
+
+div.select_empId {
+  float: left;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-left: 5px;
+}
+
+div.select_empName {
+  float: left;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+div.select_deptId {
+  float: left;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+div.select_submit {
+  float: left;
+  margin-top: 3px;
+}
+
+div.update_submit {
+  float: right;
+  margin-top: 3px;
+}
+
+div.insert_submit {
+  float: right;
+  margin-top: 3px;
+}
+
+div.select_text {
+  float: left;
+}
+
+div.table_manage {
+  clear: both;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+div.table_info {
+  clear: both;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+div.button_next {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.button_before {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.table_login {
+
+}
+
+table.table_login {
+  padding-top: 70px;
+}
+
+td {
+  text-align: center;
+  vertical-align: top;
+}
+
+h2.header {
+  float: left;
+  padding: 0 1.5em;
+}
+
+h3 {
+  margin-top: 0;
+  color: Red;
+}
+
+h5.login_user {
+  padding: 5px;
+  margin: 10px;
+}
